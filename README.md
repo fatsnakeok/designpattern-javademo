@@ -8,6 +8,11 @@
 3. 单例的实现单例有下面几种经典的实现方式。
 - IdGenerator1.java   饿汉式
 - IdGenerator2.java   懒汉式
-- IdGenerator3.java   双重检测
+- IdGenerator3.java   双重检测  参考：https://www.cnblogs.com/tangZH/p/10031337.html
 - IdGenerator4.java   静态内部类
-- IdGenerator5.java   枚举
+- IdGenerator5.java   枚举   参考：https://www.cnblogs.com/kaleidoscope/p/9636779.html
+
+4.单例模式三个主要特点：
+（1）构造方法私有化；
+（2）实例化的变量引用私有化；
+（3）获取实例的方法共有。

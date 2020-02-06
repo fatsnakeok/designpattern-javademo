@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * @Auther: fatsnake
- * @Description": 单例模式 --- 双重检测
+ * @Description": 单例模式 --- 双重检测  https://www.cnblogs.com/tangZH/p/10031337.html
  * @Date:2020-02-06 14:10
  * Copyright (c) 2020, zaodao All Rights Reserved.
  */
