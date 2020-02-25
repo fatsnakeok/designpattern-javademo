@@ -90,9 +90,14 @@
   替换掉原始类。
 
 有关动态代理，请参考：
-[https://segmentfault.com/a/1190000007089902](Java 动态代理(Dynamic proxy) 小结)
-[https://blog.csdn.net/qq_32532321/article/details/81874990](java动态代理详解)
-[https://www.jianshu.com/p/95970b089360](你真的完全了解Java动态代理吗？看这篇就够了)
+
+[Java 动态代理(Dynamic proxy) 小结](https://segmentfault.com/a/1190000007089902)
+
+[java动态代理详解](https://blog.csdn.net/qq_32532321/article/details/81874990)
+
+[你真的完全了解Java动态代理吗？看这篇就够了](https://www.jianshu.com/p/95970b089360)
+
+
 
 
 ### 代理模式的应用场景
