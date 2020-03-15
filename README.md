@@ -272,3 +272,8 @@ Subject-Observer、Publisher-Subscriber、Producer-Consumer、EventEmitter-Event
 - 行为型模式是将不同的行为代码解耦，具体到观察者模式，它是将观察者和被观察者代码解耦。
 - 借助设计模式，我们利用更好的代码结构，将一大坨代码拆分成职责更单一的小类，让其满足开闭原则、
 高内聚松耦合等特性，以此来控制和应对代码的复杂性，提高代码的可扩展性。
+
+### 实现一个 google guava EventBus
+自造轮子：/designPattern/behavior/observer/eventBus
+
+[google guava EventBus源码](https://github.com/google/guava)
