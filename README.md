@@ -277,3 +277,22 @@ Subject-Observer、Publisher-Subscriber、Producer-Consumer、EventEmitter-Event
 自造轮子：/designPattern/behavior/observer/eventBus
 
 [google guava EventBus源码](https://github.com/google/guava)
+
+
+## behavior/templateMethod 模板模式 (Template Method Design Pattern)
+### 基本概念
+模板方法模式在一个方法中定义一个算法/业务逻辑骨架，并将某些步骤推迟到子类中实现。模板方法模式可以让子类在不改变算法/业务逻辑整体结构的
+情况下，重新定义算法中的某些步骤。
+
+在模板模式经典的实现中，模板方法定义为 final，可以避免被子类重写。需要子类重写的方法定义为 abstract，可以强迫子类去实现。不过，在实际项
+目开发中，模板模式的实现比较灵活，以上两点都不是必须的。
+
+### 作用一： 复用
+模板模式把一个算法中不变的流程抽象到父类的模板方法 templateMethod() 中，将可变的部分 method1()、method2() 留给子类 ContreteClass1
+ 和 ContreteClass2 来实现。所有的子类都可以复用父类中模板方法定义的流程代码。我们通过两个小例子来更直观地体会一下。
+
+
+### 作用二：扩展
+这里所说的扩展，并不是指代码的扩展性，而是指框架的扩展性，有点类似我们之前讲到的控制反转。基于这个作用，模
+板模式常用在框架的开发中，让框架用户可以在不修改框架源码的情况下，定制化框架的功能。通过 Junit TestCase、Java Servlet 两个例子来解释一下。
+
